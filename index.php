@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-style-mode" content="1">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/stc-purple.svg">
+    <title>stc - Digital Annual Report 2024</title>
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-6.css">
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/metismenu.css">
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
+</head>
+<body class="index-five">
+    <?php include 'navbar.html'; ?>
+    <!-- header style four end -->
+    <!-- header area two end -->
+    <div id="particles">
+        <div class="overlay"></div>
+    </div>
+    <video class="background-video" autoplay muted loop playsinline>
+        <source src="assets/media/particle-purple.mp4" type="video/mp4">
+    </video>
+
+    <div class="banner-area banner-style-one">
+        <script type="x-shader/x-vertex" id="vertexshader">
+
+            attribute float size;
+            attribute vec3 customColor;
+            varying vec3 vColor;
+          
+            void main() {
+          
+              vColor = customColor;
+              vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
+              gl_PointSize = size * ( 300.0 / -mvPosition.z );
+              gl_Position = projectionMatrix * mvPosition;
+          
+            }
+          
+          </script>
+          <script type="x-shader/x-fragment" id="fragmentshader">
+          
+           uniform vec3 color;
+           uniform sampler2D pointTexture;
+          
+           varying vec3 vColor;
+          
+           void main() {
+          
+            gl_FragColor = vec4( color * vColor, 1.0 );
+            gl_FragColor = gl_FragColor * texture2D( pointTexture, gl_PointCoord );
+    
+           }
+    
+          </script>
+    
+          <script src="assets/js/hero.js"></script>
+          <div id="magic"></div>
+          <div class="playground">
+            <div class="bottomPosition">
+                <a href="main.html" class="learn-more-btn white-text">Play Video <i class="fa-solid fa-play"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- rts banner five end -->
+    <!-- large-image area end -->
+    <!-- rts Portfolio accordion area start -->
+    <!-- Scripts style two -->
+
+    <div class="loading-screen" id="loading-screen">
+        <span class="bar top-bar"></span>
+        <span class="bar down-bar"></span>
+        <span class="progress-line"></span>
+        <span class="loading-counter"> </span>
+    </div>
+
+    <div class="bg-noise"></div>
+
+    <!-- back to top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+    <!-- back to top end -->
+
+
+
+    <!-- pre loader start -->
+    <div class="rts-cursor cursor-outer" data-default="yes" data-link="yes" data-slider="no">
+        <span class="fn-cursor"></span>
+    </div>
+    <div class="rts-cursor cursor-inner" data-default="yes" data-link="yes" data-slider="no">
+        <span class="fn-cursor">
+        <span class="fn-left"></span>
+        <span class="fn-right"></span>
+        </span>
+    </div>
+    <!-- pre loader end -->
+
+    <!-- dark light switcher start-->
+    <!-- <div class="modal-sidebar-scroll rts-dark-light">
+        <ul>
+            <li class="go-dark-w"><span>Dark</span><i class="rts-go-dark fal fa-moon"></i></li>
+            <li class="go-light-w"><span>Light</span><i class="rts-go-light fa-light fa-brightness"></i></li>
+        </ul>
+    </div> -->
+    <!-- dark light switcher end -->
+
+
+
+    <script defer src="assets/js/vendor/jquery.min.js"></script>
+    <script defer src="assets/js/plugins/bootstrap.min.js"></script>
+    <script defer src="assets/js/plugins/contact.form.js"></script>
+    <script defer src="assets/js/vendor/waypoint.js"></script>
+    <script defer src="assets/js/plugins/swiper.js"></script>
+
+
+    <!-- for side bar sticky -->
+    <script defer src="assets/js/plugins/resizer-sensor.js"></script>
+    <script defer src="assets/js/plugins/sticky-sidebar.js"></script>
+    <!-- for side bar sticky end-->
+
+    <script defer src="assets/js/plugins/isotop.js"></script>
+    <script defer src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+
+    <script defer src="assets/js/plugins/smoothscroll-varticle.js"></script>
+    <script defer src="assets/js/vendor/gsap.js"></script>
+    <script defer src="assets/js/plugins/scrolltiger.js"></script>
+    <script defer src="assets/js/plugins/scrolltoplugin.js"></script>
+    <script defer src="assets/js/plugins/splittext.js"></script>
+    <script defer src="assets/js/plugins/smoothscroll.js"></script>
+
+    <!-- title opacity scroll magix -->
+    <script defer src="assets/js/plugins/scrollmagic.js"></script>
+    <script defer src="assets/js/plugins/animate-scrollmagic.js"></script>
+    <!-- title opacity scroll magic end -->
+    <script defer src="assets/js/plugins/tilt.js"></script>
+    <script defer src="assets/js/plugins/counterup.js"></script>
+
+    <script defer src="assets/js/vendor/waw.js"></script>
+    <!-- custom javascripts -->
+    <script defer src="assets/js/main.js"></script>
+    <script src="assets/js/particle.js"></script>
+    <!-- Scripts style two End -->
+</body>
+</html>
