@@ -1,0 +1,246 @@
+.banner-bg-1{
+    background-image: url(../images/banner/KeyActivitiesBanner.webp);
+    background-position: center;
+    background-repeat: repeat;
+    height: 900px;
+    background-color: #0E0E0E;
+}
+
+.businessModel .single-approach-area-start{
+    width: 100%;
+    height: 250px;
+    background: var(--color-primary);
+}
+
+.businessModel .single-approach-area-start .title{
+    color: var(--color-secondary);
+}
+
+.businessModel .single-approach-area-start ul li{
+    color: #fff;
+}
+
+
+.businessModel .single-approach-area-start::after{
+    display: none;
+}
+
+.businessModel .single-approach-area-start:hover ul li{
+    color: #fff;
+}
+
+.businessModel .approch-area-left p.disc{
+    color: var(--color-text);
+}
+
+
+.strategicFramework .rts-cta-4-area .cta-main-wrapper .title{
+    text-align: left;
+}
+
+.strategicFramework .rts-cta-4-area .cta-main-wrapper p{
+    color: #fff;
+}
+
+.strategicFramework .rts-cta-4-area{
+    background-image: url(../images/businessModel/stc-Reach.jpg);
+}
+
+
+
+/**************Reach table*****************/
+
+
+.reach-table-container {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.reach-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.reach-table th, .reach-table td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    /* vertical-align: top; */
+}
+
+.header-column {
+    width: 60px;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: none;
+    color: var(--color-primary);
+}
+
+.letter-cell {
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.r-cell { background-color: #5D2E8C; }
+.e-cell { background-color: #7E57C2; }
+.a-cell { background-color: #F05B72; }
+.c-cell { background-color: #607D8B; }
+.h-cell { background-color: #90A4AE; }
+
+.letter {
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.letter-title {
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.objective {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.main-objective {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.sub-objectives {
+    margin-top: 8px;
+}
+
+.kpi-section ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.kpi-section li {
+    position: relative;
+    padding-left: 15px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.kpi-section li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+.purple-text { color: #5D2E8C; }
+.blue-text { color: #3F51B5; }
+
+@media screen and (max-width: 768px) {
+    .reach-table {
+        display: block;
+        width: 100%;
+    }
+    
+    .reach-table thead, .reach-table tbody, .reach-table th, .reach-table td, .reach-table tr {
+        display: block;
+    }
+    
+    .reach-table tr {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+
+    .header-column {
+        display: none;
+    }
+    
+    .letter-cell {
+        width: 100%;
+        text-align: left;
+        padding: 10px 15px;
+    }
+    
+    .letter {
+        display: inline-block;
+        margin-right: 10px;
+        font-size: 24px;
+    }
+    
+    .letter-title {
+        display: inline-block;
+        font-size: 18px;
+    }
+    
+    .objective, .kpi-section {
+        border-top: 1px solid #eee;
+    }
+}
+
+
+
+
+.ValuedStakeholders .title-faq-4 .title{
+    color: var(--color-secondary);
+}
+
+
+.ValuedStakeholders .four-accordion-area-faq .accordion-item .accordion-header button{
+    color: #fff;
+}
+
+.ValuedStakeholders .accordion-body p{
+    color: #fff;
+}
+
+.ValuedStakeholders .four-accordion-area-faq .accordion-item .accordion-header button::before{
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+}
+
+.ValuedStakeholders .four-accordion-area-faq .accordion-item::after{
+    background: #d9d9d915
+}
+.ValuedStakeholders .four-accordion-area-faq,
+.ValuedStakeholders .four-accordion-area-faq .accordion-item{
+    border: 1px solid #d9d9d915;
+
+}
+
+
+.main-objective-bold{
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+
+/*****************Market Review**************************/
+/* 
+#barChart{
+    height: 500px !important;
+    width: 500px;
+} */
+/* 
+canvas {
+    max-width: 600px;
+    margin: auto;
+} */
+
+

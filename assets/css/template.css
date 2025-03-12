@@ -14756,7 +14756,7 @@ body::before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 30px 0;
   }
   @media only screen and (max-width: 767px) {
     .rts-header-area-two .main-header-two {
@@ -15422,7 +15422,7 @@ body::before {
     right: 3px;
     display: block;
     visibility: visible;
-    border-radius: 10px;
+    border-radius: 15px;
   }
   
   .thumbnail.rts-team__item {
@@ -16743,7 +16743,6 @@ body::before {
     font-style: normal;
     font-weight: 800;
     line-height: 74px;
-    text-transform: uppercase;
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .portfolio-main-wrapper-portfolio-8 .banner-area-portfolio-eight .banner-main-wrapper .title {
@@ -17998,8 +17997,8 @@ body::before {
     font-size: 16px;
     line-height: 26px;
     text-transform: uppercase;
-    color: #74787C;
-    border: 1px solid #282828 !important;
+    color: #fff;
+    border: 1px solid #fff !important;
     border-radius: 100%;
     position: relative;
     overflow: hidden;
@@ -18293,9 +18292,8 @@ body::before {
     font-size: 80px !important;
     font-style: normal;
     font-weight: 600 !important;
-    line-height: 80px !important;
+    line-height: 95px !important;
     letter-spacing: 0.96px;
-    text-transform: uppercase !important;
     margin-top: 80px;
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -18834,7 +18832,6 @@ body::before {
     position: absolute;
     right: 54px;
     top: 34px;
-    font-family: Hanken Grotesk;
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
@@ -22601,7 +22598,7 @@ body::before {
   }
   .approch-area-left .title-area-left-wrapper .title {
     color: #fff;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin-top: 30px;
     font-weight: 700;
     font-size: 48px;
@@ -22642,7 +22639,7 @@ body::before {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #74787C;
+    color: var(--body-color);
   }
   
   .our-approch-area-style-one {
@@ -24253,12 +24250,10 @@ body::before {
   }
   .title-faq-4 .title {
     color: #141414;
-    font-family: Hanken Grotesk;
     font-size: 48px;
     font-style: normal;
     font-weight: 600;
     line-height: 58px;
-    text-transform: uppercase;
     margin-top: 15px;
   }
   @media only screen and (max-width: 767px) {
@@ -25011,7 +25006,6 @@ body::before {
   .rts-cta-4-area .cta-main-wrapper .title {
     color: #FFF;
     text-align: right;
-    font-family: Hanken Grotesk;
     font-size: 72px;
     font-style: normal;
     font-weight: 600;
@@ -25224,7 +25218,7 @@ body::before {
   .history-nav .nav .nav-link.active {
     background: transparent;
     border: none !important;
-    border-bottom: 1px solid #1E1E1E !important;
+    border-bottom: 1px solid #1E1E1E;
   }
   
   .history-conetent-5 .tab-pane.fade.show.active .thumbnail img {
@@ -27177,7 +27171,7 @@ body::before {
     width: 200px;
     left: calc(50% - 50px);
     margin: 0;
-    background: rgba(0, 0, 0, 0.2);
+    background: #4d008c;
     /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     backdrop-filter: blur(10px);
     /* border: 1px solid rgba(255, 255, 255, 0.3); */
@@ -27197,7 +27191,7 @@ body::before {
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.2), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.05);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05), 0 2px 2px rgba(0, 0, 0, 0.2), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.05);
     padding: 10px 0 !important;
-    border-radius: 10px;
+    border-radius: 15px;
     min-width: max-content;
   }
   /* .nav-area .navbar-nav-1 .menu-item .sub-menu::after {
@@ -27754,7 +27748,7 @@ body::before {
   .title-elements-parent {
     font-size: 70px;
     margin-bottom: 80px;
-    text-align: center;
+    text-align: left;
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .title-elements-parent {
@@ -27779,7 +27773,7 @@ body::before {
     color: #141414;
     font-size: 70px;
     margin-bottom: 80px;
-    text-align: center;
+    text-align: left;
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .bg-white .title-elements-parent {
@@ -29493,3 +29487,31 @@ a#dex-sign:hover {
   right: 0;
 }
 
+/****************heading custom***************/
+
+.secondary-title {
+  color: var(--color-secondary);
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+}
+
+.tertiary-title {
+  color: var(--body-color);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+}
+
+/******************pop up for video*********************/
+
+.bottomPosition a{
+  color: #fff;
+}
+
+
+.fancybox__container {
+  --fancybox-bg: rgba(24, 24, 27, 0.50) !important;
+}

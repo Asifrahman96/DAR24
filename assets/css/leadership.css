@@ -47,3 +47,18 @@
     color: #ff375e;
     font-weight: 600;
 }
+
+.leadership .single-service-h2{
+    padding: 0px;
+    background:transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+.leadership .single-service-h2 .inner-content p{
+    margin: 0 0 10px;
+}
+
+.leadership .single-service-h2 img{
+    border-radius: 25px;
+}
