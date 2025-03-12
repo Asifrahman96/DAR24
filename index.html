@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/font.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r125/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 </head>
 <body class="index-five">
     <!-- <?php include 'navbar.html'; ?> -->
@@ -69,10 +70,11 @@
           </script>
     
           <script src="assets/js/hero.js"></script>
+
           <div id="magic"></div>
           <div class="playground">
             <div class="bottomPosition">
-                <a href="main.html" class="learn-more-btn white-text">Play Video <i class="fa-solid fa-play"></i></a>
+                <a href="assets/media/CEO Yearly Report.mp4" data-fancybox data-width="768" data-height="480" class="learn-more-btn white-text">Play Video <i class="fa-solid fa-play"></i></a>
             </div>
         </div>
     </div>
@@ -121,15 +123,11 @@
         </ul>
     </div> -->
     <!-- dark light switcher end -->
-
-
-
     <script defer src="assets/js/vendor/jquery.min.js"></script>
     <script defer src="assets/js/plugins/bootstrap.min.js"></script>
     <script defer src="assets/js/plugins/contact.form.js"></script>
     <script defer src="assets/js/vendor/waypoint.js"></script>
     <script defer src="assets/js/plugins/swiper.js"></script>
-
 
     <!-- for side bar sticky -->
     <script defer src="assets/js/plugins/resizer-sensor.js"></script>
@@ -157,6 +155,12 @@
     <!-- custom javascripts -->
     <script defer src="assets/js/main.js"></script>
     <script src="assets/js/particle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> 
+    <script>
+        Fancybox.bind('[data-fancybox]', {
+          // Custom options
+        });  
+    </script>
     <!-- Scripts style two End -->
 </body>
 </html>
